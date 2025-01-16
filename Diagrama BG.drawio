@@ -1,0 +1,73 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
+  <diagram name="Diagrama Arquitectura" id="o9btmoyxvULzOSQ0dhLh">
+    <mxGraphModel dx="1050" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LS10_N_UN8Hc3Xio8_XK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LS10_N_UN8Hc3Xio8_XK-2" target="LS10_N_UN8Hc3Xio8_XK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LS10_N_UN8Hc3Xio8_XK-2" value="Frontend(FE)&lt;br&gt;Azure App Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="27.5" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="LS10_N_UN8Hc3Xio8_XK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LS10_N_UN8Hc3Xio8_XK-4" target="LS10_N_UN8Hc3Xio8_XK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LS10_N_UN8Hc3Xio8_XK-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LS10_N_UN8Hc3Xio8_XK-4" target="LS10_N_UN8Hc3Xio8_XK-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LS10_N_UN8Hc3Xio8_XK-4" value="Backend for Frontend(BFF)&lt;div&gt;Azure Functions&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LS10_N_UN8Hc3Xio8_XK-5" value="API Externa&lt;br&gt;The Movie Database" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="520" y="25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LS10_N_UN8Hc3Xio8_XK-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LS10_N_UN8Hc3Xio8_XK-8" target="LS10_N_UN8Hc3Xio8_XK-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LS10_N_UN8Hc3Xio8_XK-8" value="Azure API Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="128" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LS10_N_UN8Hc3Xio8_XK-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LS10_N_UN8Hc3Xio8_XK-10" target="LS10_N_UN8Hc3Xio8_XK-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LS10_N_UN8Hc3Xio8_XK-10" value="Azure Front Door&lt;div&gt;(Proteccion DDoS y Equilibrador de carga)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="247" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LS10_N_UN8Hc3Xio8_XK-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LS10_N_UN8Hc3Xio8_XK-12" target="LS10_N_UN8Hc3Xio8_XK-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LS10_N_UN8Hc3Xio8_XK-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LS10_N_UN8Hc3Xio8_XK-12" target="LS10_N_UN8Hc3Xio8_XK-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LS10_N_UN8Hc3Xio8_XK-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LS10_N_UN8Hc3Xio8_XK-12" target="LS10_N_UN8Hc3Xio8_XK-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LS10_N_UN8Hc3Xio8_XK-12" value="Azure Application Gateway&lt;div&gt;(Seguridad WAF)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="368" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LS10_N_UN8Hc3Xio8_XK-14" value="Azure Monitor &amp;amp; App Insights" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="486" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LS10_N_UN8Hc3Xio8_XK-16" value="Azure Redis Cache&lt;div&gt;(Almacenamiento en cache de respuestas del API)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="368" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LS10_N_UN8Hc3Xio8_XK-18" value="Azure Cosmos DB&lt;br&gt;(Almacenamiento de Datos opcional)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LS10_N_UN8Hc3Xio8_XK-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LS10_N_UN8Hc3Xio8_XK-16" target="LS10_N_UN8Hc3Xio8_XK-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="445" as="sourcePoint" />
+            <mxPoint x="220" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS10_N_UN8Hc3Xio8_XK-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LS10_N_UN8Hc3Xio8_XK-20" target="LS10_N_UN8Hc3Xio8_XK-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LS10_N_UN8Hc3Xio8_XK-20" value="Azure Service Bus&lt;div&gt;(Proceso Asincronico)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="368" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
